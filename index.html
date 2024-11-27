@@ -19,6 +19,12 @@
                 float:right;
     
             }
+        /*
+        div.creature{
+            background-color: yellow;
+            border:2px solid red;
+        }
+        */
 
         </style>
     </head>   
@@ -99,7 +105,9 @@
                 if creature lives in air, yellow
                 
                 */
-               alert("showHome()");
+               //alert("showHome()");
+               const myNodeList = document.querySelectorAll("div.creature");
+               console.log(myNodeList);
             
         }//end showHome()
         
@@ -119,7 +127,7 @@
             /*
                 loop through all creatures
                 
-                clear border back to 1px solid black
+                clear border back to 2px solid black
                 clear background color to white
                 
             */
